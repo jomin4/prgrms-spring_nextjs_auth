@@ -1,0 +1,23 @@
+# === Java / Gradle (back) ===
+.gradle/
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+HELP.md
+
+# === Node / Next.js (front, 추후) ===
+node_modules/
+.next/
+out/
+.pnpm-store/
+
+# === IDE / OS ===
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# === Claude / 기타 ===
+.claude
+*.log
