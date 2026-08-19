@@ -18,6 +18,10 @@ out/
 .DS_Store
 Thumbs.db
 
+# === H2 로컬 DB (자동 생성) ===
+*.mv.db
+*.trace.db
+
 # === Claude / 기타 ===
 .claude
 *.log
